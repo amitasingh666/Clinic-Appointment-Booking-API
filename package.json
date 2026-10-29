@@ -1,0 +1,28 @@
+{
+  "name": "clinic-appointment-booking-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitasingh666/Clinic-Appointment-Booking-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitasingh666/Clinic-Appointment-Booking-API/issues"
+  },
+  "homepage": "https://github.com/amitasingh666/Clinic-Appointment-Booking-API#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14"
+  }
+}
