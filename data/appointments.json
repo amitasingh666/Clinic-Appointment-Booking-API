@@ -1,0 +1,5 @@
+[
+  { "id": "a1", "doctorId": "d1", "patientName": "Ravi",  "date": "2026-11-02", "time": "10:00" },
+  { "id": "a2", "doctorId": "d1", "patientName": "Meena", "date": "2026-11-02", "time": "11:30" },
+  { "id": "a3", "doctorId": "d2", "patientName": "Arjun", "date": "2026-11-03", "time": "09:20" }
+]

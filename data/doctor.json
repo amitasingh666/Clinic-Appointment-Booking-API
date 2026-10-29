@@ -1,0 +1,8 @@
+[
+  { "id": "d1", "name": "Dr. Sharma", "specialty": "Dermatology",
+    "schedule": { "mon": ["10:00-13:00"], "wed": ["14:00-17:00"] },
+    "slotMinutes": 30 },
+  { "id": "d2", "name": "Dr. Rao", "specialty": "Cardiology",
+    "schedule": { "tue": ["09:00-12:00"], "thu": ["09:00-12:00"] },
+    "slotMinutes": 20 }
+]
