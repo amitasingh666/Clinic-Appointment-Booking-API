@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const pool = require('./db');
 const doctorsRouter = require('./routes/doctors');
+const appointmentsRouter = require('./routes/appointments');
 
 const app = express();
 app.use(express.json());
@@ -17,6 +18,7 @@ app.get('/health', async (req, res, next) => {
 
 // Mount routers
 app.use('/doctors', doctorsRouter);
+app.use('/appointments', appointmentsRouter);
 
 // 404 for any route that didn't match
 app.use((req, res) => {
